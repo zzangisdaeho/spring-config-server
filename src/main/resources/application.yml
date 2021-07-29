@@ -1,0 +1,12 @@
+server:
+  port: 8888
+
+spring:
+  application:
+    name: config-server
+  cloud:
+    config:
+      server:
+        git:
+#          uri: file://../../../git-local-repo
+          uri: file:///Users/user/eclipse-workspace/MSA/git-local-repo
