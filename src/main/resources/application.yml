@@ -9,4 +9,6 @@ spring:
       server:
         git:
 #          uri: file://../../../git-local-repo
-          uri: file:///Users/user/eclipse-workspace/MSA/git-local-repo
+#          uri: file:///Users/user/eclipse-workspace/MSA/git-local-repo #home
+          uri: file:///Users/kimdaeho/study/MSA/git-local-repo #SIL
+          default-label: main
